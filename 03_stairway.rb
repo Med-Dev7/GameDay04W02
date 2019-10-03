@@ -109,7 +109,6 @@ while true
       int = game()
     elsif int == 2
       int = average_finish_time()
-      puts "average #{int}"
     elsif int == 3
       puts "En revoir est a bientot"
       return
@@ -121,4 +120,4 @@ while true
     end
   end
 end
-perform
+perform()

@@ -130,14 +130,10 @@ int = 0
       int = half_pyramid()
     elsif int == 2
       stage = isPair()
-      puts int
-
       int = full_pyramid(stage)
-      puts int
     elsif int == 3
       stage = isPair()
       int = wtf_pyramid(stage)
-
     elsif int == 4
       puts "En revoir est a bientot"
       return
